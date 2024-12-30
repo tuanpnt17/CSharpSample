@@ -12,8 +12,8 @@ public class SubscriberOne
         publisher.Notify -= ReceiveFromPublisher;
     }
 
-    void ReceiveFromPublisher(object data)
+    private void ReceiveFromPublisher(object? sender, MyEventArgs eventArgs)
     {
-        System.Console.WriteLine("SubscriberOne: " + data);
+        System.Console.WriteLine("SubscriberOne: " + eventArgs.Data);
     }
 }

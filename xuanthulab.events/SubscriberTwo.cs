@@ -10,8 +10,8 @@ public class SubscriberTwo
     {
         publisher.Notify -= ReceiveFromPublisher;
     }
-    void ReceiveFromPublisher(object data)
+    void ReceiveFromPublisher(object? sender, MyEventArgs eventArgs)
     {
-        System.Console.WriteLine("SubscriberTwo: " + data);
+        System.Console.WriteLine("SubscriberTwo: " + eventArgs.Data);
     }
 }

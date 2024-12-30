@@ -9,9 +9,7 @@
             var sub2 = new SubscriberTwo();
             sub1.Sub(publisher);
             sub2.Sub(publisher);
-            publisher.SendNews("Hello, World!");
-            sub1.UnSub(publisher);
-            publisher.SendNews("Goodbye, World!");
+            publisher.SendNews();
         }
     }
 }
