@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.file", "xuanthul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.collections", "xuanthulab.collections\xuanthulab.collections.csproj", "{704676D8-1A27-49EC-959C-E56758593594}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.linq", "xuanthulab.linq\xuanthulab.linq.csproj", "{C10CC917-31F8-49F0-A3C0-0754469191A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{704676D8-1A27-49EC-959C-E56758593594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{704676D8-1A27-49EC-959C-E56758593594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{704676D8-1A27-49EC-959C-E56758593594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
