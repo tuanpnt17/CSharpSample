@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.collections", "x
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.linq", "xuanthulab.linq\xuanthulab.linq.csproj", "{C10CC917-31F8-49F0-A3C0-0754469191A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xuanthulab.async", "xuanthulab.async\xuanthulab.async.csproj", "{4A7BA290-3699-4016-A23D-C9A4AF807B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C10CC917-31F8-49F0-A3C0-0754469191A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7BA290-3699-4016-A23D-C9A4AF807B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7BA290-3699-4016-A23D-C9A4AF807B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7BA290-3699-4016-A23D-C9A4AF807B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7BA290-3699-4016-A23D-C9A4AF807B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
